@@ -22,7 +22,7 @@ def calculate_quotient(num_1, num_2): #Calculates and displays the quotient of t
     print(f"Quotient: {num_quot}")
     
 #--Main program--
-try:
+try: #if there is division by zero, the program prints a user-defined error instead of crashing
     num_1 = float(input("Enter first number: ")) #getting the two numbers from the user as floats
     num_2 = float(input("Enter second number: ")) #global variables; can be accessed anywhere
     calculate_sum(num_1, num_2) #calls the four functions; passes the numbers as arguments
