@@ -12,7 +12,7 @@ def calculate_sum(): #Calculates and displays the sum of the two numbers
 
 def calculate_difference(): #Calculates and displays the difference of the two numbers
     global num_1, num_2 #Global calls for num_1 and num_2; function now able to use the values of these variables
-    num_diff = num_1 + num_2 #local variable; only printed inside this function
+    num_diff = num_1 - num_2 #local variable; only printed inside this function
     print(f"Difference: {num_diff}")
 
 #--Main program--
