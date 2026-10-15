@@ -18,7 +18,7 @@ def get_student_info(): #Gets student info (name, grades) for conversion into a 
 
 def evaluate_performance(scores): #Evaluated the student's performance to convert it into a performance level
     average = (scores[0] + scores[1] + scores[2]) / 3 #Local variable, stores average
-    perf = "" #Local variable, stores average
+    perf = "" #Local variable, stores performance label
     if average >= 90:
         perf = "Outstanding"
     elif average >= 85:
